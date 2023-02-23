@@ -5,38 +5,120 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.App {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  height: 320px;
+  border-radius: 10px;
+  background-color: #CCC;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.card__Leftcontainer {
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #332CEB;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.card__leftSideText {
+  font-size: 12px;
+}
+.card__circle {}
+.card__result {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.card__resultTotal {
+  font-size: 8px;
+}
+.card__messageTitle {
+  margin-top: 3rem;
+  font-family: sans-serif;
+}
+.card__messageSubtitle {
+  font-size: 13px;
+  color: #CCC;
+  max-width: 12rem;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* right side styling */
+.card__rightSide {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  border-radius: 0 10px 10px 0;
+  background-color: white;
 }
-
-.card {
-  padding: 2em;
+.card__rightTitle {
+  justify-content: flex-start;
+  text-align: left;
+  margin-left: 1.3rem;
+  font-family: sans-serif;
+  
 }
-
-.read-the-docs {
-  color: #888;
+.card__rightContainer {
+  display: flex;
+  height: 50%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.card__summaryWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  height: 2rem;
+  width: 90%;
+  margin-bottom: 0.5rem;
+}
+/* colors */
+.red {
+  background-color: #FF888A;
+}
+.yellow {
+   background-color: #FFD05C;
+}
+.green {
+   background-color: #3AAA8C;
+}
+.blue {
+   background-color: #3D4798;
+}
+.card__summaryLeft {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card__summaryRight {
+  padding-right: 0.5rem;
+}
+.btn__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  border-radius: 16px;
+  height: 40px;
+  background-color: black;
+  margin-top: 1.5rem;
+}
+.btn__link {
+  color: white;
+  text-decoration: none;
+}
+.btn__linkText {
+  color: white;
+  font-size: 15px;
 }
