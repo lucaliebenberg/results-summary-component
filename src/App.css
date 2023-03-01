@@ -19,6 +19,7 @@ body {
   height: 512px;
   border-radius: 32px;
   font-family: Hansen Grotesk;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .card__Leftcontainer {
   width: 368px;
