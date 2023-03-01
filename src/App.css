@@ -107,20 +107,41 @@ body {
   width: 288px;
   margin-bottom: 0.5rem;
 }
+.overlay {
+  position: absolute;
+  background-color: #fff;
+  opacity: 0.2;
+}
 .card__summaryIcon { }
+
 /* colors */
 .red {
-  background-color: #FF888A;
+  background-color: rgba(255, 229, 225, 0.3);
 }
 .yellow {
-   background-color: #FFD05C;
+  background-color: rgba(255, 187, 2, 0.1);
 }
 .green {
-   background-color: #3AAA8C;
+  background-color: rgba(0, 187, 143, 0.2);
 }
 .blue {
-   background-color: #3D4798;
+  background-color: rgba(17, 37, 214, 0.2);
 }
+
+/* text color */
+.red-text {
+  color: #FF5555;
+}
+.yellow-text {
+  color: #FFB21E;
+}
+.green-text {
+  color: #00BB8F;
+}
+.blue-text {
+   color: #1125D6;
+}
+
 .card__summaryLeft {
   width: 40%;
   display: flex;

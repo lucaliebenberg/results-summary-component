@@ -30,7 +30,7 @@ const App = () => {
           <div className="card__summaryWrapper red">
             <div className="card__summaryLeft ">
               <img src={Reaction} alt="" className="card__summaryIcon" />
-              <p>Reaction</p>
+              <p className="card__summaryText red-text">Reaction</p>
             </div>
             <div className="card__summaryRight">
               <p>80 / 100</p>
@@ -40,7 +40,7 @@ const App = () => {
           <div className="card__summaryWrapper yellow">
             <div className="card__summaryLeft ">
               <img src={Memory} alt="" />
-              <p>Memory</p>
+              <p className="card__summaryText yellow-text">Memory</p>
             </div>
             <div className="card__summaryRight">
               <p>92 / 100</p>
@@ -50,7 +50,7 @@ const App = () => {
           <div className="card__summaryWrapper green">
             <div className="card__summaryLeft">
               <img src={Verbal} alt="" />
-              <p>Verbal</p>
+              <p className="card__summaryText green-text">Verbal</p>
             </div>
             <div className="card__summaryRight">
               <p>61 / 100</p>
@@ -60,7 +60,7 @@ const App = () => {
           <div className="card__summaryWrapper blue">
             <div className="card__summaryLeft">
               <img src={Visual} alt="" />
-              <p>Visual</p>
+              <p className="card__summaryText blue-text">Visual</p>
             </div>
             <div className="card__summaryRight">
               <p>72 / 100</p>
