@@ -12,7 +12,7 @@ const App = () => {
     <div className="App">
       <div className="card__Leftcontainer">
         <div className="card__leftSide">
-          <p className="card__leftSideText">Your Results</p>
+          <h1 className="card__leftSideText">Your Results</h1>
           <div className="card__circle">
             <p className="card__result">76</p>
             <p className="card__resultTotal">of 100</p>
