@@ -1,49 +1,73 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,300;0,400;0,500;0,700;0,800;1,600&display=swap');
+
+* {
+  font-family: Hanken Grotesk;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ECF2FF;
 }
 
 .App {
   display: flex;
   flex-direction: row;
-  width: 500px;
-  height: 320px;
-  border-radius: 10px;
-  background-color: #CCC;
+  width: 736px;
+  height: 512px;
+  border-radius: 32px;
+  font-family: Hansen Grotesk;
+  /* background-color: #CCC; */
 }
 .card__Leftcontainer {
-  width: 50%;
-  height: 100%;
-  border-radius: 10px;
-  background-color: #332CEB;
+  width: 368px;
+  height: 512px;
+  border-radius: 32px;
+  background-image: linear-gradient(to bottom, #7755FF , #2F2CE9);
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.card__leftSideText {
-  font-size: 12px;
+.card__leftSide {
+  border-radius: 32px;
 }
-.card__circle {}
-.card__result {
-  font-size: 42px;
+.card__leftSideText {
+  font-size: 24px;
   font-weight: bold;
+  color: #CAC9FF;
+}
+.card__circle {
+  height: 200px;
+  width: 200px;
+  background-image: linear-gradient(to bottom, #4D21C9 , #2521C9);
+  border-radius:50%;
+}
+.card__result {
+  font-size: 72px;
+  font-weight: 800;
   margin-bottom: 0;
 }
 .card__resultTotal {
-  font-size: 8px;
+  font-size: 18px;
+  color: #CAC9FF;
+  font-weight: bold;
 }
 .card__messageTitle {
   margin-top: 3rem;
-  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  color: white;
 }
 .card__messageSubtitle {
-  font-size: 13px;
-  color: #CCC;
-  max-width: 12rem;
+  font-size: 18px;
+  color: #CAC9FF;
+  font-weight: 500;
+  max-width: 260px;
+  text-align: center;
 }
 
 
@@ -54,14 +78,16 @@
   width: 50%;
   height: 100%;
   border-radius: 0 10px 10px 0;
-  background-color: white;
+  background-color: #fff;
 }
 .card__rightTitle {
   justify-content: flex-start;
   text-align: left;
   margin-left: 1.3rem;
-  font-family: sans-serif;
-  
+  padding: 1.2rem;
+  font-weight: bold;
+  font-size: 24px;
+  color: #303B59;
 }
 .card__rightContainer {
   display: flex;
@@ -77,10 +103,11 @@
   align-items: center;
   background-color: white;
   border-radius: 10px;
-  height: 2rem;
-  width: 90%;
+  height: 56px;
+  width: 288px;
   margin-bottom: 0.5rem;
 }
+.card__summaryIcon { }
 /* colors */
 .red {
   background-color: #FF888A;
@@ -108,11 +135,12 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 85%;
-  border-radius: 16px;
-  height: 40px;
+  width: 288px;
+  border-radius: 128px;
+  height: 56px;
   background-color: black;
   margin-top: 1.5rem;
+  background-color: #303B59;
 }
 .btn__link {
   color: white;

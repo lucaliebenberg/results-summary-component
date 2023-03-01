@@ -19,7 +19,7 @@ const App = () => {
           </div>
           <h3 className="card__messageTitle">Great</h3>
           <p className="card__messageSubtitle">
-            You scored higher than 65% of the people who have taken these tests.
+            You performance exceed 65% of the people conducting the test here!
           </p>
         </div>
       </div>
@@ -29,7 +29,7 @@ const App = () => {
           {/* card summary */}
           <div className="card__summaryWrapper red">
             <div className="card__summaryLeft ">
-              <img source={Reaction} alt="" />
+              <img src={Reaction} alt="" className="card__summaryIcon" />
               <p>Reaction</p>
             </div>
             <div className="card__summaryRight">
@@ -39,7 +39,7 @@ const App = () => {
           {/* card summary */}
           <div className="card__summaryWrapper yellow">
             <div className="card__summaryLeft ">
-              <img source={Memory} alt="" />
+              <img src={Memory} alt="" />
               <p>Memory</p>
             </div>
             <div className="card__summaryRight">
@@ -49,7 +49,7 @@ const App = () => {
           {/* card summary */}
           <div className="card__summaryWrapper green">
             <div className="card__summaryLeft">
-              <img source={Verbal} alt="" />
+              <img src={Verbal} alt="" />
               <p>Verbal</p>
             </div>
             <div className="card__summaryRight">
@@ -59,7 +59,7 @@ const App = () => {
           {/* card summary */}
           <div className="card__summaryWrapper blue">
             <div className="card__summaryLeft">
-              <img source={Visual} alt="" />
+              <img src={Visual} alt="" />
               <p>Visual</p>
             </div>
             <div className="card__summaryRight">
