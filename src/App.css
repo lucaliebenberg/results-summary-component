@@ -119,13 +119,13 @@ body {
   border-radius: 10px;
   height: 56px;
   width: 288px;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
 }
-.overlay {
+/* .overlay {
   position: absolute;
   background-color: #fff;
   opacity: 0.2;
-}
+} */
 .card__summaryIcon { 
   margin-right: 0.75rem;
 }
@@ -187,10 +187,20 @@ body {
   background-color: black;
   margin-top: 1.5rem;
   background-color: #303B59;
+  transition: all 0.3s ease-in-out;
+}
+.btn__container:hover {
+  background-image: linear-gradient(to bottom, #7755FF , #2F2CE9);
+  cursor: pointer;
 }
 .btn__link {
   color: white;
   text-decoration: none;
+  transition: all 0.2s ease;
+}
+.btn__link:hover {
+  background-image: linear-gradient(to bottom, #7755FF , #2F2CE9);
+  cursor: pointer
 }
 .btn__linkText {
   color: white;
