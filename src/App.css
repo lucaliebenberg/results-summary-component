@@ -112,7 +112,9 @@ body {
   background-color: #fff;
   opacity: 0.2;
 }
-.card__summaryIcon { }
+.card__summaryIcon { 
+  margin-right: 0.75rem;
+}
 
 /* colors */
 .red {
@@ -149,8 +151,17 @@ body {
   justify-content: center;
 }
 .card__summaryRight {
-  padding-right: 0.5rem;
+  padding-right: 0.75rem;
 }
+
+.card__summaryParaText {
+  color: #303B59;
+  font-weight: bold;
+}
+.card__summarySpanText {
+  color: #919CA9;
+}
+
 .btn__container {
   display: flex;
   flex-direction: row;

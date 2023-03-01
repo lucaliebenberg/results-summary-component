@@ -33,37 +33,45 @@ const App = () => {
               <p className="card__summaryText red-text">Reaction</p>
             </div>
             <div className="card__summaryRight">
-              <p>80 / 100</p>
+              <p className="card__summaryParaText">
+                80 <span className="card__summarySpanText"> / 100</span>
+              </p>
             </div>
           </div>
           {/* card summary */}
           <div className="card__summaryWrapper yellow">
             <div className="card__summaryLeft ">
-              <img src={Memory} alt="" />
+              <img src={Memory} alt="" className="card__summaryIcon" />
               <p className="card__summaryText yellow-text">Memory</p>
             </div>
             <div className="card__summaryRight">
-              <p>92 / 100</p>
+              <p className="card__summaryParaText">
+                92 <span className="card__summarySpanText">/ 100</span>
+              </p>
             </div>
           </div>
           {/* card summary */}
           <div className="card__summaryWrapper green">
             <div className="card__summaryLeft">
-              <img src={Verbal} alt="" />
+              <img src={Verbal} alt="" className="card__summaryIcon" />
               <p className="card__summaryText green-text">Verbal</p>
             </div>
             <div className="card__summaryRight">
-              <p>61 / 100</p>
+              <p className="card__summaryParaText">
+                61 <span className="card__summarySpanText"> / 100</span>
+              </p>
             </div>
           </div>
           {/* card summary */}
           <div className="card__summaryWrapper blue">
             <div className="card__summaryLeft">
-              <img src={Visual} alt="" />
+              <img src={Visual} alt="" className="card__summaryIcon" />
               <p className="card__summaryText blue-text">Visual</p>
             </div>
             <div className="card__summaryRight">
-              <p>72 / 100</p>
+              <p className="card__summaryParaText">
+                72 <span className="card__summarySpanText"> / 100</span>
+              </p>
             </div>
           </div>
           <div className="btn__container">
